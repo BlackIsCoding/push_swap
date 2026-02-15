@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: akoudri <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/18 13:56:00 by akoudri           #+#    #+#             */
-/*   Updated: 2025/10/27 16:36:06 by akoudri          ###   ########.fr       */
+/*   Created: 2026/01/16 13:54:22 by akoudri           #+#    #+#             */
+/*   Updated: 2026/01/16 13:54:29 by akoudri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,12 +98,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (fill_ptrs(ptr, s, c, count));
 }
-
-// int main(){
-// 	char **ptr = ft_split("", ' ');
-// 	int i = 0 ;
-// 	while (ptr[i])
-// 		printf("%s", ptr[i++]);
-// 	if(ptr[i][0] == '\0')
-// 		printf("no");
-// }
